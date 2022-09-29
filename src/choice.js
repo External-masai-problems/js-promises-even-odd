@@ -4,28 +4,8 @@
 
 function choice(data) {
   //Write your code below
-  return new Promise((resolve, reject) => {
-    try{
-      if(isNaN(data)){
-        reject('error');
-        }
-         else if(data%2 === 0) {
-        setTimeout(reject, 2000, 'even');
-        console.log('even')
-        } else {
-        setTimeout(resolve, 1000, 'odd');
-        console.log('odd')
-        }
-      }
-      catch(error) {
-        alert(error);
-      }
-  });
-   
-}
   
 
-
-
-console.log(choice('test'))
+  //Do not change from here
+}
 export default choice;
