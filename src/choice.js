@@ -22,10 +22,10 @@ function choice(data) {
       }
   });
    
+//Do not change these
 }
-  
 
-
-
-console.log(choice('test'))
+console.log(choice("test"));
+console.log(choice(1));
+console.log(choice(4));
 export default choice;
